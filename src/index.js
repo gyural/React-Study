@@ -13,9 +13,10 @@ import LandingPage from './chap09/LandingPage';
 import AttendanceBook from './chap10/AttendanceBook';
 import SignUp from './chap11/SignUp';
 import Calculator from './chap12/Calculator';
+import ProfileCard from './chap13/ProfileCard';
   ReactDOM.render(
     <React.StrictMode>
-      <Calculator/>
+      <ProfileCard/>
     </React.StrictMode>,
     document.getElementById('root')
   );
